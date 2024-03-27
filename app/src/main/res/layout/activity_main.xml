@@ -10,21 +10,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:contentDescription="Image" />
 
     <EditText
         android:id="@+id/answerEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:layout_marginTop="16dp"
         android:hint="Enter State Name"
         android:inputType="text" />
 
     <Button
         android:id="@+id/submitAnswerButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Submit Answer" />
+        android:background="@color/teal_200"
+        android:text="Submit" />
 
 </LinearLayout>

@@ -5,7 +5,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.state_quiz_app.R
 
-
 class MainActivity : AppCompatActivity() {
     private val correctAnswer = "usa-washington+"
     private var totalGuesses = 0
